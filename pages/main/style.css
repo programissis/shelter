@@ -52,3 +52,22 @@
 .big-puppy-img {
     width: 698px;
 }
+
+.about-pets-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 120px;
+    padding-inline: 215px;
+}
+
+.about-pets-img {
+    width: 300px;
+}
+
+.about-pets-article {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+}
