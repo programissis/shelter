@@ -1,20 +1,25 @@
 @import "../../common/styles/index.css";
 
-.big-puppy-section {
+.header {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.start-screen-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 42px;
 }
 
-.big-puppy-article {
+.start-screen-article {
     display: flex;
     flex-direction: column;
     gap: 42px;
     margin-bottom: 80px;
 }
 
-.big-puppy-img {
+.start-screen-img {
     width: 698px;
 }
 
@@ -52,14 +57,14 @@
 
 .help-list {
     list-style: none;
+    margin: 0;
+    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     column-gap: 120px;
     row-gap: 55px;
     flex-wrap: wrap;
-    margin: 0;
-    padding: 0;
 }
 
 .help-list-item {
@@ -87,4 +92,8 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+.donation-img {
+    width: 505px;
 }
